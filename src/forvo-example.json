@@ -1,0 +1,39 @@
+{
+  "attributes": { "total": 2 },
+  "items": [
+    {
+      "id": 249575,
+      "word": "vorrei",
+      "original": "vorrei",
+      "addtime": "2009-07-13 13:37:46",
+      "hits": 4428,
+      "username": "micmcee9",
+      "sex": "m",
+      "country": "Italy",
+      "code": "it",
+      "langname": "Italian",
+      "pathmp3": "https://apifree.forvo.com/audio/25243a2h261k3f2p3c3927343c1h3d1g1b3b1k3q3d3a1p1m3n3h2e352h1n1g23312n2231392c2n251o1b2o3j1o212f1i273f2q3c3k3o3n313o3e3k3d23253i32_362g3o241o31252c3b3f2o212p3e3e3m1p3q1j2h3a3n1t1t",
+      "pathogg": "https://apifree.forvo.com/audio/2p2f1i3o292q23231p2a22352f3i282p253h223d1l372d231l212g2i3m3i292f321o3o3m372h3h3i363q3g1l1g352d3l2f3q3n1l32383a2c3j1k3h2p2k1f1i2o_3q382b1l2g1g1p2p24252b2i2p22341i3k2i1n3q293n1t1t",
+      "rate": 2,
+      "num_votes": 2,
+      "num_positive_votes": 2
+    },
+    {
+      "id": 4538949,
+      "word": "vorrei",
+      "original": "vorrei",
+      "addtime": "2016-09-12 10:59:49",
+      "hits": 904,
+      "username": "AZ85",
+      "sex": "m",
+      "country": "Italy",
+      "code": "it",
+      "langname": "Italian",
+      "pathmp3": "https://apifree.forvo.com/audio/2d3c28223h353c3h1h3e2n2b1m2a1b2h2p2j1p1i2a2k2o3o36262n2h312q1k2q1n2e23221f1h31243d2f382l3e2e2a3e2i1p1n3c1l2f2o2e3i1f26253g2n3p3o_3i3p1j3l3a2b1f3o2j2c1h2h2g2j3m2a351o342h39371t1t",
+      "pathogg": "https://apifree.forvo.com/audio/2d2k282p2h38341l3j3f2c3d1j331o272j1k2d1i3c2i243b1h2l3738383d3i1f1k2f3e291o232g243g3o2a3a3a2l3f2e1m3d392d3m2c3j1h3l352336351m2j2q_393l252a1f382g1h2i342b3d1m1o2q3b2n3d2q2d1k3n1t1t",
+      "rate": 0,
+      "num_votes": 0,
+      "num_positive_votes": 0
+    }
+  ]
+}

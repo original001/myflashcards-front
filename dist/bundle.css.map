@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../src/app/App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import { Router, Link, Route } from \"svelte-routing\";\n</script>\n\n<style>\n  :global(body) {\n    font: 16px Helvetica;\n    background: #f1f1f1;\n    padding: 0;\n    margin: 0;\n  }\n  main {\n    padding: 20px;\n  }\n\n</style>\n\n<main>\n  <button>Review</button>\n  <button>Create</button>\n</main>\n"
+  ],
+  "names": [],
+  "mappings": "AAKU,IAAI,AAAE,CAAC,AACb,IAAI,CAAE,IAAI,CAAC,SAAS,CACpB,UAAU,CAAE,OAAO,CACnB,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,AACX,CAAC,AACD,IAAI,cAAC,CAAC,AACJ,OAAO,CAAE,IAAI,AACf,CAAC"
+}

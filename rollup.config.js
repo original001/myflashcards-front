@@ -3,6 +3,7 @@ import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
+import babel from "rollup-plugin-babel";
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -24,13 +25,18 @@ export default {
         css.write("public/bundle.css");
       }
     }),
+    babel({
+      babelrc: false,
+      extensions: [ ".js", ".mjs", ".html", ".svelte" ],
+      presets: [["@babel/env", { targets: "iOS > 10", modules: false }]]
+    }),
 
     // If you have external dependencies installed from
     // npm, you'll most likely need these plugins. In
     // some cases you'll need additional configuration —
     // consult the documentation for details:
     // https://github.com/rollup/rollup-plugin-commonjs
-    resolve({ browser: true }),
+    resolve({ browser: true}),
     commonjs(),
 
     // Watch the `public` directory and refresh the

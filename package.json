@@ -5,10 +5,15 @@
   "scripts": {
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
-    "serve": "sirv public --single --dev",
+    "serve": "sirv public --host 0.0.0.0 --port 8080 --single --dev",
     "start": "run-p serve autobuild"
   },
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "es6-promise": "^4.2.8",
+    "rollup-plugin-babel": "^4.3.3",
     "sirv-cli": "^0.4.4",
     "svelte-routing": "^1.2.0"
   },

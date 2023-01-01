@@ -18,7 +18,7 @@
     "svelte-routing": "^1.2.0"
   },
   "devDependencies": {
-    "css-loader": "^2.1.1",
+    "css-loader": "^6.7.3",
     "npm-run-all": "^4.1.5",
     "rollup": "^1.10.1",
     "rollup-plugin-commonjs": "^9.3.4",
